@@ -1,0 +1,23 @@
+{
+  "name": "palladium",
+  "main": "./lib/palladium",
+  "version": "0.0.1",
+  "description": "Send easily. Test for free.",
+  "activationEvents": [
+    "palladium:sendMail"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/icetee/palladium",
+  "bugs": {
+    "url": "https://github.com/icetee/palladium/issues"
+  },
+  "engines": {
+    "atom": ">0.61.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.9.1",
+    "nodemailer": "^2.5.0",
+    "nodemailer-smtp-transport": "^2.6.0"
+  },
+  "devDependencies": {}
+}

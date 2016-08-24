@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Palladium'
+      'submenu': [
+        {
+          'label': 'Email'
+          'command': 'palladium:email'
+        }
+      ]
+    ]
+  }
+]

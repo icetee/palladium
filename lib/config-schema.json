@@ -1,0 +1,61 @@
+{
+    "defaultProtocol": {
+        "type": "string",
+        "default": "SMTP",
+        "enum": ["SMTP", "Gmail"],
+        "order": 1
+    },
+    "smtp": {
+        "title": "SMTP",
+        "type": "object",
+        "order": 2,
+        "properties": {
+            "host": {
+                "title": "Host",
+                "type": "string",
+                "default": "localhost",
+                "order": 1
+            },
+            "port": {
+                "title": "Port",
+                "type": "integer",
+                "default": 25,
+                "order": 2
+            },
+            "auth": {
+                "type": "object",
+                "order": 3,
+                "properties": {
+                    "user": {
+                        "title": "Username",
+                        "type": "string",
+                        "default": "username",
+                        "order": 1
+                    },
+                    "pass": {
+                        "title": "Password",
+                        "type": "string",
+                        "default": "password",
+                        "order": 2
+                    }
+                }
+            }
+        }
+    },
+    "gmail": {
+        "type": "object",
+        "order": 3,
+        "properties": {
+            "email": {
+                "title": "Email",
+                "type": "string",
+                "default": "palladium00000@gmail.com"
+            },
+            "pass": {
+                "title": "Password",
+                "type": "string",
+                "default": "password"
+            }
+        }
+    }
+}
