@@ -5,8 +5,8 @@
       'label': 'Palladium'
       'submenu': [
         {
-          'label': 'Email'
-          'command': 'palladium:email'
+          'label': 'Send email'
+          'command': 'palladium:SendEmail'
         }
       ]
     ]

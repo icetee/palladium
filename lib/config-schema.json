@@ -57,5 +57,20 @@
                 "default": "password"
             }
         }
+    },
+    "mailgun": {
+        "type": "object",
+        "order": 4,
+        "properties": {
+            "api_key" : {
+                "title": "Mailgun API key",
+                "type": "string",
+                "default": "key-12345abcd"
+            },
+            "domain" : {
+                "type": "string",
+                "default": "mailgun.com"
+            }
+        }
     }
 }
