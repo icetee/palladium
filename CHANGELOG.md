@@ -1,19 +1,43 @@
-# 0.9.3 - Code Simplification :panda_face:
-- Add Travis CI (beta)
+# Change Log
+
+## [0.9.4] - 2016-08-28
+
+### Added
+
+- Attach plaintext in multipart email
+- New option to Settings (Save "plaintext" in file)
+
+## Changed
+- CHANGELOG structure
+- README informations
+
+## [0.9.3] - Code Simplification - 2016-08-27 :panda_face:
+
+# Added
+
+- Travis CI (beta)
+- SMTP Authentication checker (Mailgun no supperted)
+
+## Changed
+
+- Settings structure
 - Remove all 'self' variable
 - Remove all 'require'
-- SMTP Authentication checker (Mailgun no supperted)
-- Separete components and config files
-- Changed settings structure
+- Separate components and config files
 
-# 0.9.2 - First Stable Release :rocket:
+## [0.9.2] - First Stable Release - 2016-08-27 :rocket:
 
-- Add view class
-- Add status-bar icon
-- Add LICENCE and CHANGELOG file
-- Add keywords, author to the package.json
-- Add spec folder from Atom package generator
-- Add AppVeyor (beta)
+### Added
+
+- View class
+- Status-bar icon
+- LICENCE and CHANGELOG file
+- Keywords, author to the package.json
+- Spec folder from Atom package generator
+- AppVeyor (beta)
+
+### Fixed
+
 - Fix .editorconfig
 - Use Beautify all file
 - Change name components class to functions

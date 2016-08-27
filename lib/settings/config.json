@@ -17,10 +17,15 @@
       }
     ]
   },
+  "plaintextSaveToFile": {
+    "type": "boolean",
+    "order": 2,
+    "default": false
+  },
   "smtp": {
     "title": "SMTP",
     "type": "object",
-    "order": 2,
+    "order": 3,
     "properties": {
       "email": {
         "title": "E-mail",
@@ -56,7 +61,7 @@
   },
   "gmail": {
     "type": "object",
-    "order": 3,
+    "order": 4,
     "collapsed": "true",
     "properties": {
       "email": {
@@ -73,7 +78,6 @@
   },
   "mailgun": {
     "type": "object",
-    "order": 4,
     "collapsed": "true",
     "properties": {
       "email": {

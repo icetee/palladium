@@ -30,6 +30,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "nodemailer": "^2.5.0",
+    "nodemailer-html-to-text": "^2.1.0",
     "nodemailer-mailgun-transport": "^1.2.2",
     "nodemailer-smtp-transport": "^2.6.0"
   },
