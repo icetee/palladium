@@ -5,8 +5,12 @@
       'label': 'Palladium'
       'submenu': [
         {
-          'label': 'Send email'
-          'command': 'palladium:SendEmail'
+          'label': 'Send email',
+          'command': 'palladium:send-mail'
+        },
+        {
+          'label': 'Create .mailconfig file',
+          'command': 'palladium:create-config'
         }
       ]
     ]

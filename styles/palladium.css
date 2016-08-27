@@ -1,0 +1,16 @@
+/*
+    Green: #73c990
+    Blue:  #6494ed
+    Gray:  #9da5b4
+*/
+
+.status-bar .palladium .icon-rocket:before {
+    font-size: 13px;
+    width: 13px;
+    height: 13px;
+    top: -1px;
+}
+
+.palladium.active .icon-rocket:before {
+    color: #6494ed;
+}
