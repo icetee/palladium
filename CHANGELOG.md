@@ -1,5 +1,7 @@
 # Change Log
 
+## [Unreleased]
+
 ## [0.9.4] - 2016-08-28
 
 ### Added
@@ -8,6 +10,7 @@
 - New option to Settings (Plaintext save to file)
 
 ## Changed
+
 - CHANGELOG structure
 - README informations
 
