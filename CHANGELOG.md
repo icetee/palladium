@@ -5,7 +5,7 @@
 ### Added
 
 - Attach plaintext in multipart email
-- New option to Settings (Save "plaintext" in file)
+- New option to Settings (Plaintext save to file)
 
 ## Changed
 - CHANGELOG structure
