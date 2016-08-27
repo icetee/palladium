@@ -1,31 +1,18 @@
 {
   "name": "palladium",
   "main": "./lib/palladium",
-  "version": "0.9.2",
-  "description": "Send easily. Test for free. Send e-mail from Atom.",
+  "version": "0.9.0",
+  "description": "Send easily. Test for free.",
   "activationEvents": [
-    "palladium:send-mail",
-    "palladium:create-config"
+    "palladium:sendMail"
   ],
+  "license": "MIT",
   "repository": "https://github.com/icetee/palladium",
   "bugs": {
     "url": "https://github.com/icetee/palladium/issues"
   },
-  "license": "MIT",
-  "author": {
-    "name": "Tamás András Horváth",
-    "email": "htomy92@gmail.com",
-    "url": "https://github.com/icetee"
-  },
   "engines": {
-    "atom": ">=1.6.0 <2.0.0"
-  },
-  "consumedServices": {
-    "status-bar": {
-      "versions": {
-        "^1.0.0": "consumeStatusBar"
-      }
-    }
+    "atom": ">1.0.0"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
@@ -34,15 +21,5 @@
     "nodemailer-mailgun-transport": "^1.2.1",
     "nodemailer-smtp-transport": "^2.6.0"
   },
-  "devDependencies": {},
-  "keywords": [
-    "atom",
-    "palladium",
-    "email",
-    "nodemailer",
-    "transporter",
-    "smtp",
-    "gmail",
-    "mailgun"
-  ]
+  "devDependencies": {}
 }
