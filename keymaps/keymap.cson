@@ -1,2 +1,2 @@
 'atom-workspace atom-text-editor:not([mini])':
-  'alt-m': 'palladium:sendMail'
+  'alt-m': 'palladium:send-mail'
