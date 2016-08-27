@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## Fixed
+
+- Validation problem
+
 ## [0.9.4] - 2016-08-28
 
 ### Added
