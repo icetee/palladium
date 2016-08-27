@@ -29,9 +29,8 @@
   },
   "dependencies": {
     "cheerio": "^0.22.0",
-    "lodash": "^4.15.0",
     "nodemailer": "^2.5.0",
-    "nodemailer-mailgun-transport": "^1.2.1",
+    "nodemailer-mailgun-transport": "^1.2.2",
     "nodemailer-smtp-transport": "^2.6.0"
   },
   "devDependencies": {},

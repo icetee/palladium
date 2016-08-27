@@ -1,45 +1,56 @@
 {
   "defaultProtocol": {
     "type": "string",
-    "default": "SMTP",
-    "enum": ["SMTP", "Gmail"],
-    "order": 1
+    "default": "smtp",
+    "order": 1,
+    "enum": [{
+        "value": "smtp",
+        "description": "SMTP"
+      },
+      {
+        "value": "gmail",
+        "description": "Gmail"
+      },
+      {
+        "value": "mailgun",
+        "description": "Mailgun"
+      }
+    ]
   },
   "smtp": {
     "title": "SMTP",
     "type": "object",
     "order": 2,
-    "collapsed": "true",
     "properties": {
+      "email": {
+        "title": "E-mail",
+        "type": "string",
+        "default": "ilovepalladium00@gmail.com",
+        "order": 1
+      },
+      "user": {
+        "title": "Username",
+        "type": "string",
+        "default": "username",
+        "order": 2
+      },
+      "pass": {
+        "title": "Password",
+        "type": "string",
+        "default": "password",
+        "order": 3
+      },
       "host": {
         "title": "Host",
         "type": "string",
         "default": "localhost",
-        "order": 1
+        "order": 4
       },
       "port": {
         "title": "Port",
         "type": "integer",
         "default": 25,
-        "order": 2
-      },
-      "auth": {
-        "type": "object",
-        "order": 3,
-        "properties": {
-          "user": {
-            "title": "Username",
-            "type": "string",
-            "default": "username",
-            "order": 1
-          },
-          "pass": {
-            "title": "Password",
-            "type": "string",
-            "default": "password",
-            "order": 2
-          }
-        }
+        "order": 5
       }
     }
   },
@@ -65,6 +76,11 @@
     "order": 4,
     "collapsed": "true",
     "properties": {
+      "email": {
+        "type": "string",
+        "order": 1,
+        "default": "ilovepalladium00@gmail.com"
+      },
       "api_key": {
         "title": "Mailgun API key",
         "type": "string",
