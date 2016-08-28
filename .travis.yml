@@ -2,7 +2,7 @@ language: objective-c
 
 notifications:
   slack: icetee:HZokbd5Ncbfq3izNWOhId7xm
-  
+
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
 
 git:
@@ -11,7 +11,6 @@ git:
 sudo: false
 
 os:
-  - linux
   - osx
 
 env:
@@ -22,4 +21,4 @@ env:
 
 branches:
   only:
-- master
+    - master
