@@ -22,10 +22,20 @@
     "order": 2,
     "default": false
   },
+  "showStatusbarIcon": {
+    "type": "boolean",
+    "order": 3,
+    "default": true
+  },
+  "enabledGrammers": {
+    "type": "string",
+    "order": 4,
+    "default": "html, plain, text"
+  },
   "smtp": {
     "title": "SMTP",
     "type": "object",
-    "order": 3,
+    "order": 5,
     "properties": {
       "email": {
         "title": "E-mail",
@@ -61,7 +71,7 @@
   },
   "gmail": {
     "type": "object",
-    "order": 4,
+    "order": 6,
     "collapsed": "true",
     "properties": {
       "email": {

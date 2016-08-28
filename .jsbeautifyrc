@@ -1,10 +1,11 @@
 {
+  "indent_char": " ",
+  "eol": "\r\n",
   "html": {
     "extra_liners": []
   },
   "js": {
     "indent_size": 4,
-    "indent_char": " ",
     "indent_level": 0,
     "space_in_paren": false,
     "indent_with_tabs": false,

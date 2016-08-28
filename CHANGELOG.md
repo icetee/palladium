@@ -2,9 +2,18 @@
 
 ## [Unreleased]
 
+## Added
+
+- If no open pane then remove rocket icon
+- New option to Settings (Show statusbar icon)
+
 ## Fixed
 
 - Validation problem
+
+## Changed
+
+- Optimalize .jsbeautifyrc
 
 ## [0.9.4] - 2016-08-28
 
