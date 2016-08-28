@@ -1,8 +1,8 @@
-notifications:
-  email:
-    on_success: never
-    on_failure: change
+language: objective-c
 
+notifications:
+  slack: icetee:HZokbd5Ncbfq3izNWOhId7xm
+  
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
 
 git:
