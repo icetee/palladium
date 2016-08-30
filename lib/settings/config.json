@@ -27,10 +27,10 @@
     "order": 3,
     "default": true
   },
-  "enabledGrammers": {
+  "enabledGrammars": {
     "type": "string",
     "order": 4,
-    "default": "html, plain, text"
+    "default": "html, plain, text, !php"
   },
   "smtp": {
     "title": "SMTP",

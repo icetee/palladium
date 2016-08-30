@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## Added
+
+- Is it possible to turn off Grammars
+
 ## Changed
 
 - Remove "Cheerio" dependency
@@ -11,6 +15,7 @@
 - Cleaning up cids
 - Faulty querySelector
 - After switching showStatusbarIcon memory leak
+- Regulation
 
 ## [0.10.5] - 2016-08-30
 
