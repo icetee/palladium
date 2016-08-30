@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## Fixed
+
+- Cleaning up cids
+
 ## [0.10.5] - 2016-08-30
 
 ## Added
