@@ -9,6 +9,8 @@
 ## Fixed
 
 - Cleaning up cids
+- Faulty querySelector
+- After switching showStatusbarIcon memory leak
 
 ## [0.10.5] - 2016-08-30
 
