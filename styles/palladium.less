@@ -1,0 +1,23 @@
+/*
+    Green: #73c990
+    Blue:  #6494ed
+    Gray:  #9da5b4
+*/
+@import "ui-variables";
+
+.status-bar .palladium .icon-rocket:before {
+    font-size: 13px;
+    width: 13px;
+    height: 13px;
+    top: -1px;
+}
+
+.palladium.load .icon-rocket:before {
+    color: @text-color-info;
+}
+.palladium.success .icon-rocket:before {
+    color: @text-color-success;
+}
+.palladium.failed .icon-rocket:before {
+    color: @text-color-error;
+}

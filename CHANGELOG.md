@@ -2,18 +2,26 @@
 
 ## [Unreleased]
 
+## [0.10.5] - 2016-08-30
+
 ## Added
 
 - If no open pane then remove rocket icon
-- New option to Settings (Show statusbar icon)
+- New option to Settings (Show status bar icon)
+- Add new listing for status bar icon (onDidChangeGrammar)
+- Added status colors
+- Cleaning up cids
 
 ## Fixed
 
 - Validation problem
+- No send HTML content
+- After changing settings 'undefined' value
 
 ## Changed
 
 - Optimalize .jsbeautifyrc
+- Base CSS to LESS
 
 ## [0.9.4] - 2016-08-28
 
