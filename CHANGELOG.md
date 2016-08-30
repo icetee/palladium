@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## Changed
+
+- Remove "Cheerio" dependency
+
 ## Fixed
 
 - Cleaning up cids
