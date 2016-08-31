@@ -9,6 +9,7 @@
 ## Changed
 
 - Remove "Cheerio" dependency
+- Change keymaps and menus filename
 
 ## Fixed
 
@@ -16,6 +17,7 @@
 - Faulty querySelector
 - After switching showStatusbarIcon memory leak
 - Regulation
+- Package dependencies
 
 ## [0.10.5] - 2016-08-30
 
