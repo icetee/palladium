@@ -10,10 +10,6 @@
       {
         "value": "gmail",
         "description": "Gmail"
-      },
-      {
-        "value": "mailgun",
-        "description": "Mailgun"
       }
     ]
   },
@@ -83,26 +79,6 @@
         "title": "Password",
         "type": "string",
         "default": "password"
-      }
-    }
-  },
-  "mailgun": {
-    "type": "object",
-    "collapsed": "true",
-    "properties": {
-      "email": {
-        "type": "string",
-        "order": 1,
-        "default": "ilovepalladium00@gmail.com"
-      },
-      "api_key": {
-        "title": "Mailgun API key",
-        "type": "string",
-        "default": "key-12345abcd"
-      },
-      "domain": {
-        "type": "string",
-        "default": "mailgun.com"
       }
     }
   }

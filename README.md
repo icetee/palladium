@@ -1,4 +1,4 @@
-# Palladium [![Build Status](https://secure.travis-ci.org/icetee/palladium.png?branch=master)](http://travis-ci.org/icetee/palladium)
+# Palladium
 
 Send easily. Test for free. Send e-mail from Atom.
 

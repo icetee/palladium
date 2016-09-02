@@ -10,6 +10,7 @@
 
 - Remove "Cheerio" dependency
 - Change keymaps and menus filename
+- Remove support mailgun (-800ms "gratis")
 
 ## Fixed
 
