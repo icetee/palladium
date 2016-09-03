@@ -2,16 +2,20 @@
 
 ## [Unreleased]
 
+## [0.11.1] - 2016-09-03
+
 ## Added
 
 - Is it possible to turn off Grammars
 - In Developer mode not sending mail
+- Optimalize startup time
 
 ## Changed
 
 - Remove "Cheerio" dependency
 - Change keymaps and menus filename
 - Remove support mailgun (-800ms "gratis")
+- Rename lib.js -> helpers.js
 
 ## Fixed
 
