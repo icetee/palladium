@@ -5,6 +5,7 @@
 ## Added
 
 - Is it possible to turn off Grammars
+- In Developer mode not sending mail
 
 ## Changed
 
