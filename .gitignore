@@ -45,6 +45,7 @@ src/img/*.*
 # Disable configs
 .ftpconfig
 .mailconfig
+.mailinglist
 
 # Disable idea folder
 idea

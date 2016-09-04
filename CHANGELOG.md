@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2016-09-04
+
+## Added
+
+- Supported mailing list
+
 ## [0.11.1] - 2016-09-03
 
 ## Added
