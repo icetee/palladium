@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.0.3] - 2016-09-06
+
+- Fix .split() issue
+- OS specific settings
+
 ## [1.0.2] - 2016-09-06
 
 ## Fixed
