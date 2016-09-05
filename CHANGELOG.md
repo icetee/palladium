@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2016-09-05
+
+## Changed
+
+- Default port is 465
+- More configuration options
+- Remove authentication from Palladium settings
+- Separate two warning messages
+
+## Fixed
+
+- Repair the problem, which prevents you can create a file .mailconfig only in editor mode.
+
 ## [1.0.0] - 2016-09-04
 
 ## Added

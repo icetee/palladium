@@ -1,4 +1,9 @@
 {
-  "to": "Professor Oak <oak@kanto.poke>, Brock <brock@pewter.poke>",
-  "subject": "[Palladium Mail] Newsletter"
+  "to": "Professor Oak <oak@kanto.poke>",
+  "subject": "[Palladium Mail] Newsletter",
+  "email": "example@kanto.poke",
+  "host": "mail.kanto.poke",
+  "port": 465,
+  "user": "username",
+  "pass": "password"
 }

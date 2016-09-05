@@ -1,18 +1,4 @@
 {
-  "defaultProtocol": {
-    "type": "string",
-    "default": "smtp",
-    "order": 1,
-    "enum": [{
-        "value": "smtp",
-        "description": "SMTP"
-      },
-      {
-        "value": "gmail",
-        "description": "Gmail"
-      }
-    ]
-  },
   "plaintextSaveToFile": {
     "type": "boolean",
     "order": 2,
@@ -27,59 +13,5 @@
     "type": "string",
     "order": 4,
     "default": "html, plain, text, !php"
-  },
-  "smtp": {
-    "title": "SMTP",
-    "type": "object",
-    "order": 5,
-    "properties": {
-      "email": {
-        "title": "E-mail",
-        "type": "string",
-        "default": "ilovepalladium00@gmail.com",
-        "order": 1
-      },
-      "user": {
-        "title": "Username",
-        "type": "string",
-        "default": "username",
-        "order": 2
-      },
-      "pass": {
-        "title": "Password",
-        "type": "string",
-        "default": "password",
-        "order": 3
-      },
-      "host": {
-        "title": "Host",
-        "type": "string",
-        "default": "localhost",
-        "order": 4
-      },
-      "port": {
-        "title": "Port",
-        "type": "integer",
-        "default": 25,
-        "order": 5
-      }
-    }
-  },
-  "gmail": {
-    "type": "object",
-    "order": 6,
-    "collapsed": "true",
-    "properties": {
-      "email": {
-        "title": "Email",
-        "type": "string",
-        "default": "ilovepalladium00@gmail.com"
-      },
-      "pass": {
-        "title": "Password",
-        "type": "string",
-        "default": "password"
-      }
-    }
   }
 }
