@@ -1,9 +1,14 @@
 {
+  "from": "Ash <ash@kanto.poke>",
   "to": "Professor Oak <oak@kanto.poke>",
   "subject": "[Palladium Mail] Newsletter",
-  "email": "example@kanto.poke",
-  "host": "mail.kanto.poke",
-  "port": 465,
-  "user": "username",
-  "pass": "password"
+  "smtp": {
+    "host": "mail.kanto.poke",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "username",
+      "pass": "@password"
+    }
+  }
 }

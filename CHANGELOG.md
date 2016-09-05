@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+## [1.0.2] - 2016-09-06
+
+## Fixed
+
+- OS path specific problem
+- Fix .maillinglist read issue
+- Set correct mailconfig.json
+
+## Changed
+
+- Remove require nodemailer-smtp-transport (Nodemailer self-managed)
+
+## Added
+
+- Email validation notifications
+
 ## [1.0.1] - 2016-09-05
 
 ## Changed
