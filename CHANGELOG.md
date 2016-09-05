@@ -4,6 +4,8 @@
 
 ## [1.0.3] - 2016-09-06
 
+## Fixed
+
 - Fix .split() issue
 - OS specific settings
 
