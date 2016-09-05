@@ -1,7 +1,7 @@
 {
   "name": "palladium",
   "main": "./lib/palladium",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Send easily. Test for free. Send e-mail from Atom.",
   "activationEvents": [
     "palladium:send-mail",
