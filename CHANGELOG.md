@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.0.4] - 2017-02-14
+
+## Fixed
+
+- Fix destroy issue
+- Promise method
+
+## Changed
+
+- Travis CI
+
 ## [1.0.3] - 2016-09-06
 
 ## Fixed
