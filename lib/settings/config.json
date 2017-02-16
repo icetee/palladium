@@ -4,14 +4,19 @@
     "order": 2,
     "default": false
   },
-  "showStatusbarIcon": {
+  "enableDeveloperMode": {
     "type": "boolean",
     "order": 3,
+    "default": false
+  },
+  "showStatusbarIcon": {
+    "type": "boolean",
+    "order": 4,
     "default": true
   },
   "enabledGrammars": {
     "type": "string",
-    "order": 4,
+    "order": 5,
     "default": "html, plain, text, !php"
   }
 }
