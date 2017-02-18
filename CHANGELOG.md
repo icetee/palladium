@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.0.6] - 2017-02-18
+
+## Fixed
+
+- Fix activate package (Thanks @blastart)
+
 ## [1.0.4] - 2017-02-14
 
 ## Fixed
