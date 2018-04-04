@@ -2,10 +2,9 @@
 
 ## [Unreleased]
 
-- Auto-remove image src path
-
 ## [1.1.0] - 2018-04-04
 
+- Auto-remove image src path
 - Fix read content from file
 - Fix cid replacement
 - Drop support < v1.22.1 Atom version
