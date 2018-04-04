@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Auto-remove image src path
+
 ## [1.1.0] - 2018-04-04
 
 - Fix read content from file
