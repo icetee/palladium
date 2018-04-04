@@ -18,7 +18,7 @@
     "url": "https://github.com/icetee"
   },
   "engines": {
-    "atom": ">=1.6.0 <2.0.0"
+    "atom": ">=1.22.1 <2.0.0"
   },
   "consumedServices": {
     "status-bar": {

@@ -49,3 +49,4 @@ src/img/*.*
 
 # Disable idea folder
 idea
+.DS_Store

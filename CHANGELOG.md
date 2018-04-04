@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-04-04
+
+- Fix read content from file
+- Fix cid replacement
+- Drop support < v1.22.1 Atom version
+
 ## [1.0.6] - 2017-02-18
 
 ## Fixed
