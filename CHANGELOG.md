@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2018-04-05
+
+- Supported .gif files
+
 ## [1.1.0] - 2018-04-04
 
 - Auto-remove image src path
