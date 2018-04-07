@@ -11,6 +11,10 @@
         {
           'label': 'Create .mailconfig file',
           'command': 'palladium:create-config'
+        },
+        {
+          'label': 'Create .mailinglist file',
+          'command': 'palladium:create-list'
         }
       ]
     ]

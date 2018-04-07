@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2018-04-07
+
+- Add disableImageEncode option
+- New create .mailinglist command
+
 ## [1.1.1] - 2018-04-05
 
 - Supported .gif files
